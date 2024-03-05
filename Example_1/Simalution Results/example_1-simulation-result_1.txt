@@ -1,0 +1,130 @@
+Simulation started.
+Initial Configuration
+-------------------------------------------------
+TYPE T1
+#0 c1 [Active] {} Links to #: 1, 2
+TYPE T4
+#1 c4 [Active] {} Links to #: 0, 3, 6
+TYPE T7
+#2 c7 [Active] {} Links to #: 0, 4, 8
+TYPE T2
+#3 c2 [Active] {a} Links to #: 1
+TYPE T3
+#4 c3 [Active] {a} Links to #: 5, 2
+TYPE T6
+#5 c6 [Active] {} Links to #: 4, 6
+TYPE T5
+#6 c5 [Active] {} Links to #: 1, 7, 5
+TYPE T9
+#7 c9 [Active] {} Links to #: 6, 8, 9
+TYPE T8
+#8 c8 [Active] {} Links to #: 2, 7
+TYPE T10
+#9 c10 [Active] {} Links to #: 7
+-------------------------------------------------
+
+STEP 1
+
+Configuration #1
+-------------------------------------------------
+TYPE T1
+#0 c1 [Active] {} Links to #: 1, 2
+TYPE T4
+#1 c4 [Active] {a} Links to #: 0, 3, 6
+TYPE T7
+#2 c7 [Active] {a} Links to #: 0, 4, 8
+TYPE T2
+#3 c2 [Active] {} Links to #: 1
+TYPE T3
+#4 c3 [Active] {} Links to #: 5, 2
+TYPE T6
+#5 c6 [Active] {a} Links to #: 4, 6
+TYPE T5
+#6 c5 [Active] {} Links to #: 1, 7, 5
+TYPE T9
+#7 c9 [Active] {} Links to #: 6, 8, 9
+TYPE T8
+#8 c8 [Active] {} Links to #: 2, 7
+TYPE T10
+#9 c10 [Active] {} Links to #: 7
+-------------------------------------------------
+
+STEP 2
+
+Configuration #2
+-------------------------------------------------
+TYPE T1
+#0 c1 [Active] {} Links to #: 1, 2
+TYPE T4
+#1 c4 [Active] {} Links to #: 0, 3, 6
+TYPE T7
+#2 c7 [Active] {} Links to #: 0, 4, 8
+TYPE T2
+#3 c2 [Active] {} Links to #: 1
+TYPE T3
+#4 c3 [Active] {} Links to #: 5, 2
+TYPE T6
+#5 c6 [Active] {} Links to #: 4, 6
+TYPE T5
+#6 c5 [Active] {2a} Links to #: 1, 7, 5
+TYPE T9
+#7 c9 [Active] {} Links to #: 6, 8, 9
+TYPE T8
+#8 c8 [Active] {a} Links to #: 2, 7
+TYPE T10
+#9 c10 [Active] {} Links to #: 7
+-------------------------------------------------
+
+STEP 3
+
+Configuration #3
+-------------------------------------------------
+TYPE T1
+#0 c1 [Active] {} Links to #: 1, 2
+TYPE T4
+#1 c4 [Active] {} Links to #: 0, 3, 6
+TYPE T7
+#2 c7 [Active] {} Links to #: 0, 4, 8
+TYPE T2
+#3 c2 [Active] {} Links to #: 1
+TYPE T3
+#4 c3 [Active] {} Links to #: 5, 2
+TYPE T6
+#5 c6 [Active] {} Links to #: 4, 6
+TYPE T5
+#6 c5 [Active] {} Links to #: 1, 7, 5
+TYPE T9
+#7 c9 [Active] {2a} Links to #: 6, 8, 9
+TYPE T8
+#8 c8 [Active] {} Links to #: 2, 7
+TYPE T10
+#9 c10 [Active] {} Links to #: 7
+-------------------------------------------------
+
+STEP 4
+
+Configuration #4
+-------------------------------------------------
+TYPE T1
+#0 c1 [Active] {} Links to #: 1, 2
+TYPE T4
+#1 c4 [Active] {} Links to #: 0, 3, 6
+TYPE T7
+#2 c7 [Active] {} Links to #: 0, 4, 8
+TYPE T2
+#3 c2 [Active] {} Links to #: 1
+TYPE T3
+#4 c3 [Active] {} Links to #: 5, 2
+TYPE T6
+#5 c6 [Active] {} Links to #: 4, 6
+TYPE T5
+#6 c5 [Active] {} Links to #: 1, 7, 5
+TYPE T9
+#7 c9 [Active] {} Links to #: 6, 8, 9
+TYPE T8
+#8 c8 [Active] {} Links to #: 2, 7
+TYPE T10
+#9 c10 [Active] {a} Links to #: 7
+-------------------------------------------------
+System halted at step 4 (no further rule could be applied, i.e. reached a deadlock).
+Simulation complete at step 4.

@@ -1,0 +1,197 @@
+Simulation started.
+Initial Configuration
+-------------------------------------------------
+TYPE t1
+#0 c1 [Active] {2a, t_2, t_3, s} Links to #: 3, 4
+TYPE t2
+#1 c2 [Active] {} Links to #: 3, 4
+TYPE t3
+#2 c3 [Active] {a} Links to #: 5
+TYPE t4
+#3 c4 [Active] {} Links to #: 0, 1
+TYPE t5
+#4 c5 [Active] {} Links to #: 0, 1
+TYPE t0
+#5 c0 [Active] {} Links to #: 2
+-------------------------------------------------
+
+STEP 1
+
+Configuration #1
+-------------------------------------------------
+TYPE t1
+#0 c1 [Active] {a, t_2, s} Links to #: 3, 4, 1
+TYPE t2
+#1 c2 [Active] {} Links to #: 3, 4, 0
+TYPE t3
+#2 c3 [Active] {} Links to #: 5
+TYPE t4
+#3 c4 [Active] {} Links to #: 0, 1
+TYPE t5
+#4 c5 [Active] {} Links to #: 0, 1
+TYPE t0
+#5 c0 [Active] {a} Links to #: 2
+-------------------------------------------------
+
+STEP 2
+
+Configuration #2
+-------------------------------------------------
+TYPE t1
+#0 c1 [Active] {tt_3, t_2} Links to #: 3, 4
+TYPE t2
+#1 c2 [Active] {a} Links to #: 3, 4
+TYPE t3
+#2 c3 [Active] {} Links to #: 5
+TYPE t4
+#3 c4 [Active] {} Links to #: 0, 1
+TYPE t5
+#4 c5 [Active] {} Links to #: 0, 1
+TYPE t0
+#5 c0 [Active] {a} Links to #: 2
+-------------------------------------------------
+
+STEP 3
+
+Configuration #3
+-------------------------------------------------
+TYPE t1
+#0 c1 [Active] {s, t_2, t_3} Links to #: 3, 4
+TYPE t2
+#1 c2 [Active] {} Links to #: 3, 4
+TYPE t3
+#2 c3 [Active] {} Links to #: 5
+TYPE t4
+#3 c4 [Active] {a} Links to #: 0, 1
+TYPE t5
+#4 c5 [Active] {a} Links to #: 0, 1
+TYPE t0
+#5 c0 [Active] {a} Links to #: 2
+-------------------------------------------------
+
+STEP 4
+
+Configuration #4
+-------------------------------------------------
+TYPE t1
+#0 c1 [Active] {s, t_2, 2a, t_3} Links to #: 3, 4
+TYPE t2
+#1 c2 [Active] {} Links to #: 3, 4
+TYPE t3
+#2 c3 [Active] {} Links to #: 5
+TYPE t4
+#3 c4 [Active] {} Links to #: 0, 1
+TYPE t5
+#4 c5 [Active] {} Links to #: 0, 1
+TYPE t0
+#5 c0 [Active] {a} Links to #: 2
+-------------------------------------------------
+
+STEP 5
+
+Configuration #5
+-------------------------------------------------
+TYPE t1
+#0 c1 [Active] {s, t_2, a} Links to #: 3, 4, 1
+TYPE t2
+#1 c2 [Active] {} Links to #: 3, 4, 0
+TYPE t3
+#2 c3 [Active] {} Links to #: 5
+TYPE t4
+#3 c4 [Active] {} Links to #: 0, 1
+TYPE t5
+#4 c5 [Active] {} Links to #: 0, 1
+TYPE t0
+#5 c0 [Active] {a} Links to #: 2
+-------------------------------------------------
+
+STEP 6
+
+Configuration #6
+-------------------------------------------------
+TYPE t1
+#0 c1 [Active] {t_2, tt_3} Links to #: 3, 4
+TYPE t2
+#1 c2 [Active] {a} Links to #: 3, 4
+TYPE t3
+#2 c3 [Active] {} Links to #: 5
+TYPE t4
+#3 c4 [Active] {} Links to #: 0, 1
+TYPE t5
+#4 c5 [Active] {} Links to #: 0, 1
+TYPE t0
+#5 c0 [Active] {a} Links to #: 2
+-------------------------------------------------
+
+STEP 7
+
+Configuration #7
+-------------------------------------------------
+TYPE t1
+#0 c1 [Active] {t_3, t_2, s} Links to #: 3, 4
+TYPE t2
+#1 c2 [Active] {} Links to #: 3, 4
+TYPE t3
+#2 c3 [Active] {} Links to #: 5
+TYPE t4
+#3 c4 [Active] {a} Links to #: 0, 1
+TYPE t5
+#4 c5 [Active] {a} Links to #: 0, 1
+TYPE t0
+#5 c0 [Active] {a} Links to #: 2
+-------------------------------------------------
+
+STEP 8
+
+Configuration #8
+-------------------------------------------------
+TYPE t1
+#0 c1 [Active] {t_3, t_2, s, 2a} Links to #: 3, 4
+TYPE t2
+#1 c2 [Active] {} Links to #: 3, 4
+TYPE t3
+#2 c3 [Active] {} Links to #: 5
+TYPE t4
+#3 c4 [Active] {} Links to #: 0, 1
+TYPE t5
+#4 c5 [Active] {} Links to #: 0, 1
+TYPE t0
+#5 c0 [Active] {a} Links to #: 2
+-------------------------------------------------
+
+STEP 9
+
+Configuration #9
+-------------------------------------------------
+TYPE t1
+#0 c1 [Active] {t_3, s, a} Links to #: 3, 4, 2
+TYPE t2
+#1 c2 [Active] {} Links to #: 3, 4
+TYPE t3
+#2 c3 [Active] {} Links to #: 5, 0
+TYPE t4
+#3 c4 [Active] {} Links to #: 0, 1
+TYPE t5
+#4 c5 [Active] {} Links to #: 0, 1
+TYPE t0
+#5 c0 [Active] {a} Links to #: 2
+-------------------------------------------------
+
+STEP 10
+
+Configuration #10
+-------------------------------------------------
+TYPE t1
+#0 c1 [Active] {t_3, tt_2} Links to #: 3, 4
+TYPE t2
+#1 c2 [Active] {} Links to #: 3, 4
+TYPE t3
+#2 c3 [Active] {a} Links to #: 5
+TYPE t4
+#3 c4 [Active] {} Links to #: 0, 1
+TYPE t5
+#4 c5 [Active] {} Links to #: 0, 1
+TYPE t0
+#5 c0 [Active] {a} Links to #: 2
+-------------------------------------------------
+Simulation complete at step 10.
