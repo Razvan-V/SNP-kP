@@ -1,0 +1,50 @@
+type S1 {
+  choice {
+    =2a & =2n2 & =2n3 : a, n2 -> a (S2) .
+    =2a & =2n3 & =2n2 : a, n3 -> a (S3) .
+    =a & =n2 & =2n3 : a, n2 -> 2n2 .
+    =a & =2n2 & =n3 : a, n3 -> 2n3 .
+  }
+}
+
+type S2 {
+  choice {
+    a  -> a (SA1), a (SA2) .
+  }
+}
+
+type S3 {
+  choice {
+    a  -> a (Environment) .
+  }
+}
+
+type SA1 {
+  choice {
+    a  -> a (S1) .
+  }
+}
+
+type SA2 {
+  choice {
+    a  -> a (S1) .
+  }
+}
+
+type Environment {
+}
+
+N1 {2a, 2n2, 2n3} (S1).
+N2 {} (S2).
+N3 {a} (S3).
+NA1 {} (SA1).
+NA2 {} (SA2).
+environment {} (Environment).
+
+N1 - N2.
+N1 - N3.
+N2 - NA1.
+N2 - NA2.
+NA1 - N1 .
+NA2 - N1 .
+N3 - environment .
